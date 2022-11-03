@@ -1,0 +1,27 @@
+.whatsapp-up-buttons {
+  position: absolute;
+  right: 14px;
+  top: -23px;
+}
+
+.up-button {
+  margin-top: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 37px;
+  height: 37px;
+
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+
+  background-color: #c4c4c4;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-up-buttons {
+    top: -56px;
+  }
+}

@@ -1,0 +1,129 @@
+.footer-form {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+
+  margin-top: 170px;
+}
+
+.footer-form-newsletter-wrapper {
+  position: relative;
+  max-width: 476px;
+}
+
+.footer-form-newsletter {
+  height: 102px;
+  padding-top: 17px;
+}
+
+.footer-newsletter-label {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  margin-bottom: 5px;
+}
+
+.footer-newsletter-field {
+  width: 100%;
+  max-width: 342px;
+  height: 42px;
+
+  font-size: 14px;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  outline: none;
+
+  padding-left: 16px;
+  margin-right: 7px;
+}
+
+.form-invalid-feedback {
+  font-size: 12px;
+  color: #c70039;
+
+  position: absolute;
+  top: 66px;
+  left: 2px;
+}
+
+.footer-newsletter-field::placeholder {
+  color: #c4c4c4;
+}
+
+.footer-newsletter-button {
+  width: 100%;
+  max-width: 126px;
+  height: 42px;
+
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: #00c8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-newsletter-button:active {
+  transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+  .footer-form {
+    height: 198px;
+  }
+
+  .footer-form-newsletter-wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-form-newsletter {
+    width: 94%;
+    height: 198px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    padding-top: 22px;
+  }
+
+  .footer-newsletter-label {
+    font-size: 14px;
+    line-height: 16px;
+
+    letter-spacing: 0.05em;
+    font-variant: small-caps;
+  }
+
+  .footer-newsletter-field {
+    max-width: 768px;
+
+    border-radius: 0;
+  }
+
+  .form-invalid-feedback {
+    top: 78px;
+  }
+
+  .footer-newsletter-button {
+    max-width: 768px;
+
+    box-shadow: none;
+    border-radius: 0;
+  }
+}

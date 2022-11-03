@@ -1,0 +1,33 @@
+.title {
+  margin-left: 32px;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  color: #292929;
+}
+
+.content {
+  max-width: 715px;
+  margin-left: 32px;
+  margin-bottom: 12px;
+
+  font-size: 13px;
+
+  color: #7d7d7d;
+}
+
+@media (max-width: 768px) {
+  .title,
+  .content {
+    max-width: 738px;
+
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .content {
+    text-align: justify;
+  }
+}

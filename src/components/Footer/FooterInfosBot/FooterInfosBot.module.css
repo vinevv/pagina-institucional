@@ -1,0 +1,156 @@
+.footer-infos-bot {
+  height: 65px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #585858;
+
+  margin-top: 12px;
+}
+
+.footer-infos-bot-text {
+  margin-left: 25px;
+  max-width: 234px;
+
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.footer-flags {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footer-flags span {
+  border-right: 1px solid #c4c4c4;
+  height: 24px;
+
+  margin-top: 14px;
+}
+
+.footer-small-flag {
+  margin-top: 16px;
+}
+
+.footer-big-flag {
+  margin-top: 10px;
+}
+
+.footer-signatures-wrapper {
+  width: 256px;
+  margin-right: 32px;
+}
+
+.footer-signatures {
+  width: 110px;
+  height: 18px;
+  margin-top: 8px;
+  margin-left: 18px;
+}
+
+@media (max-width: 912px) {
+  .footer-infos-bot-text {
+    max-width: 152px;
+  }
+
+  .footer-signatures-wrapper {
+    margin: 0;
+  }
+
+  .footer-signatures {
+    margin-right: 8px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-infos-bot {
+    height: 124px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    margin-top: 10px;
+    padding: 16px 16px;
+  }
+
+  .footer-infos-bot-text,
+  .footer-flags {
+    width: 100%;
+    max-width: 344px;
+
+    margin: 0;
+  }
+
+  .footer-infos-bot-text {
+    order: 2;
+  }
+
+  .footer-flags {
+    order: 1;
+    gap: 8px;
+  }
+
+  .footer-signatures-wrapper {
+    order: 3;
+
+    margin-top: 6px;
+  }
+
+  .footer-small-flag {
+    margin-top: 2px;
+  }
+
+  .footer-big-flag {
+    margin-top: -2px;
+  }
+
+  .footer-infos-bot-text span {
+    display: none;
+  }
+
+  .footer-flags span {
+    margin-top: 0px;
+  }
+
+  .footer-signatures-wrapper {
+    margin-right: 32px;
+  }
+
+  .footer-signatures {
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .footer-flags {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 280px) {
+  .footer-infos-bot {
+    height: fit-content;
+  }
+
+  .footer-infos-bot-text {
+    font-size: 8px;
+  }
+
+  .footer-flags {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 260px;
+  }
+
+  .footer-flags span {
+    display: none;
+  }
+}
