@@ -1,4 +1,4 @@
-# Desafio React + Typescripct M3
+# Projeto React + Typescripct
 
 Criação de uma página institucional utilizando Typescript, React e Javascript na sexta fase do curso de capacitação front-end da M3 Academy.
 
